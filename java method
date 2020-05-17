@@ -1,0 +1,54 @@
+package String;
+
+public class Str1 {
+	public static void main(String []args) {
+		String a = "Shahin shah";
+		String b = new String("Shahin Shah");
+		
+		System.out.println(a+b);
+		
+		
+		char[] c = {'s','h','a','h','i','n'};
+		System.out.println(c);
+		
+		
+		int len = a.length();
+		System.out.println("The length of a string is: "+len);
+		
+		
+	  if(a.equals(b)) {
+		  System.out.println("equals");
+		  
+		  
+	  }else 
+		  System.out.println("Not equals");
+	  
+	  
+	  boolean str = a.equals(b);
+	  System.out.println(str);
+		
+	  
+	  if(a.contains(b)) {
+		  System.out.println("Yes");
+		  
+	  }else
+		  System.out.println("No!!! ");
+	  
+	  if(a.equalsIgnoreCase(b)) {
+		  System.out.println("Equals");
+	  }else
+		  System.out.println("Not equal");
+	  
+	  boolean con = a.contains("Shah");
+	  System.out.println(con);
+	  
+	  boolean s1 = a.isEmpty();
+	  System.out.println("String a is impty  "+s1);
+			  
+	  
+		
+	}
+	
+	  
+
+}
